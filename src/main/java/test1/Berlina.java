@@ -1,14 +1,13 @@
 package test1;
 
-public class Berlina extends Veicolo
-	implements Automobile {
+public class Berlina extends Vettura {
 
-	public Berlina() {
-		super(NUM_RUOTE_BERLINA);
+	public Berlina(String targa) {
+		super(NUM_RUOTE_BERLINA, targa);
 	}
 	
-	public Berlina(int numRuote) {
-		super(numRuote);
+	public Berlina(int numRuote, String targa) {
+		super(numRuote, targa);
 		// TODO Auto-generated constructor stub
 	}
 
